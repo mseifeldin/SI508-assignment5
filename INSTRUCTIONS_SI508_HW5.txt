@@ -1,0 +1,43 @@
+To complete it, you should:
+
+Download all the files from Files > Assignments > HW5. Save them in a directory on your computer that will not contain other files.
+
+You'll need to have created a GitHub account and downloaded Git properly.
+
+Create a git repository on your computer for that directory you've saved these files in, with git init, and commit the files you've downloaded.
+
+Create a GitHub repository for these files. Make sure it is a private repository. You can call it whatever you want. Link it to the git repository and push the files to GitHub. (You will eventually need to share this repository with instructors.)
+
+One of the files you've downloaded is a text file: code_description_SI508_assignment5.txt. In that file, there is English description of what a bunch of code ought to do. This is what you will need to rely on.
+
+That code being described is saved in the file SI508_cards.py. However, there are at least 3 bugs in the code so that it does not do what the description says it should do. (Also, you shouldn't go look at the code right away, to practice test-driven development. Read the description, then organize and write your test suite!)
+
+You should write tests inside the file called SI508_assignment5_tests.py that will find those 3 bugs (and/or any others -- be careful to read the description of the code very specifically, and keep asking questions about it if you have questions or confusions!). You should not spend time looking at the code before you do that.
+
+You should write at least 12 different test methods that test unusual cases of the code, based on the description. (You may certainly write more.)
+
+The individual test methods you write may be in as many different Test Suite subclasses as you like, but it's a good idea to try to organize them in a way that will make sense when you run them.
+
+Besides the description, in paragraph form, there is no documentation of this code.
+
+You should add a README.md file to your GitHub repository in a clear, outline format that will make it easy for someone else to understand what functionality the code has, clone the code, and use it. Consider the README you'd want to get if you were interested in this code but did not have a lot of time. This does NOT have to be long -- but should include a bulletpoint list of things you can do with with this code and at least a title header.
+
+You should commit all of the changes you've made, and any new files you've created, in the process of getting this done, and push them all to your GitHub repository.
+
+Overall, the repository must have at least 3 commits pushed to GitHub, but there may be more!
+
+(When you go to that GitHub repo link you're submitting, you should see a nice README right away, because you've committed a README.md file.)
+
+You should add all instructors as collaborators on the repository (as detailed in the "GitHub - Add Instructors as Collaborators" page on Canvas) -- the following GitHub names -- so we can view it:
+- svschou
+- abisny
+- innocentjr
+- marathem
+- aerenchyma
+
+
+You should submit your *GitHub repository* to the Gradescope assignment HW5 (select the GitHub type for submission to Gradescope, allow Gradescope access to GitHub, including your private repositories -- Gradescope will only access these if you select them! -- and then select the repository you want to submit for this assignment).
+
+You can see screenshots of this process here:
+(1) https://www.dropbox.com/s/0pbd25ulwy6poss/Screenshot%202018-10-19%2017.42.18.png?dl=0
+(2) https://www.dropbox.com/s/xz2fubqlngt8gwi/Screenshot%202018-10-19%2017.42.48.png?dl=0
