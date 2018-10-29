@@ -32,7 +32,7 @@ from SI508_cards import *
 #         cardex = Card(3, 13)
 #         self.assertEqual(str(cardex), 'King of Spades')
 
-class DeckClassTests(unittest.TestCase):
+# class DeckClassTests(unittest.TestCase):
     # def test_deck_create(self):
     #     deck1 = Deck()
     #     self.assertIn('SI508_cards.Card object', deck1.cards)
@@ -59,28 +59,39 @@ class DeckClassTests(unittest.TestCase):
     #     testdeck1.replace_card(Card(3,13))
     #     self.assertEqual(len(testdeck2_cards), len(testdeck1_cards))
     #     try:
-    #         self.assertEqual((str(testdeck1)[-12:]), "King of Spades")
+    #         self.assertEqual((str(testdeck1)[-12:]), "King of Spades", "facecards working")
     #     except:
-    #         self.assertEqual((str(testdeck1)[-12:]), "13 of Spades")
+    #         self.assertEqual((str(testdeck1)[-12:]), "13 of Spades", "facecards not working")
     #     for i in range(52):
     #         testdeck1.pop_card()
     #     emptydeck = testdeck1.cards
     #     self.assertEqual(emptydeck, [])
-    def test_sort_cards(self):
-        deck1 = Deck()
-        print(type(deck1))
-        deck2 = Deck()
-        print(type(deck1))
-        suits = ["Diamonds", "Clubs", "Hearts", "Spades"]
-        cards1 = deck1.cards
-        sorteddeck = sorted(sorted(cards1, key = lambda x : x.suit_names), key = lambda x : x.rank_levels)
-        testdeck = deck2.sort_cards()
-        self.assertEqual(sorteddeck, testdeck.cards)
+    # def test_sort_cards(self):
+    #     deck1 = Deck()
+    #     deck2 = Deck()
+    #     suits = ["Diamonds", "Clubs", "Hearts", "Spades"]
+    #     cards1 = deck1.cards
+    #     sorteddeck = sorted(sorted(cards1, key = lambda x : x.suit_names), key = lambda x : x.rank_levels)
+    #     testdeck = deck2.sort_cards
+    #     self.assertEqual(sorteddeck, testdeck)
     # def test_deal_hand(self):
-    #     self.assertEqual()
+    #     deck1 = Deck()
+    #     try:
+    #         hand2 = deck1.deal_hand(60)
+    #         self.assertEqual(len(hand1), 60)
+    #         self.assertEqual(type(hand1), type([]), "not failing as specified")
+    #     except:
+    #         hand1 = deck1.deal_hand(5)
+    #         self.assertEqual(len(hand1), 5)
+    #         self.assertEqual(type(hand1), type([]), "failing as specified")
 
-# class Problem3(unittest.TestCase):
-#     def test_play_war_game(self):
+
+
+
+
+
+class WarFunctionTests(unittest.TestCase):
+    def test_play_war_game(self):
 
 
 if __name__  == "__main__":

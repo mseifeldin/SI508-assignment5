@@ -4,7 +4,7 @@ You should NOT look at the code -- rather, you should read this description and 
 
 Note that this description covers what the code SHOULD do. It may be very slightly off! You'll want to test that it really does do all of this stuff as described.
 
-This code is based on ideas about decks of "standard 52-deck" playing cards. You can read more about them, if you are unfamiliar, here: https://en.wikipedia.org/wiki/Standard_52-card_deck 
+This code is based on ideas about decks of "standard 52-deck" playing cards. You can read more about them, if you are unfamiliar, here: https://en.wikipedia.org/wiki/Standard_52-card_deck
 
 * A class Card
 	* The class Card should always have 3 class variables: suit_names, rank_levels, and faces
@@ -43,7 +43,7 @@ This code is based on ideas about decks of "standard 52-deck" playing cards. You
 
 	* Deck has a method sort_cards which should organize only the cards that are remaining in the deck (have NOT been removed) into an order such that they are in ascending order by suit: Diamonds, then Clubs, then Hearts, then Spades.
 
-	* Deck has a method deal_hand which takes a required input hand_size, an integer representing the number of cars in the hand. It should return a list of Card objects that make up the hand dealt. A hand should be able to be dealt up to the full size of the current deck (e.g. if 3 cards have been removed from the deck and not replaced, it should be impossible to deal a 52-card hand, but if no cards have been removed, it should definitely be possible to deal a 52-card hand!)
+	* Deck has a method deal_hand which takes a required input hand_size, an integer representing the number of cards in the hand. It should return a list of Card objects that make up the hand dealt. A hand should be able to be dealt up to the full size of the current deck (e.g. if 3 cards have been removed from the deck and not replaced, it should be impossible to deal a 52-card hand, but if no cards have been removed, it should definitely be possible to deal a 52-card hand!)
 
 
 * A function play_war_game
