@@ -1,5 +1,4 @@
 import random
-import helper_functions
 
 # SI 508
 # Provided cards code
